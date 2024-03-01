@@ -1,8 +1,8 @@
 #!/usr/bin/pwsh
 
 Param(
-    [parameter(Mandatory=$false)][string]$acrName="bydtochatgptcr",
-    [parameter(Mandatory=$false)][string]$acrResourceGroup="ms-byd-to-chatgpt",
+    [parameter(Mandatory=$false)][string]$acrName="acrmedicalclaimsdemokr",
+    [parameter(Mandatory=$false)][string]$acrResourceGroup="rg-MedicalClaims-demo-kr",
     [parameter(Mandatory=$true)][string]$resourceGroup,
     [parameter(Mandatory=$true)][string]$location,
     [parameter(Mandatory=$true)][string]$subscription,
