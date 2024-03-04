@@ -1,9 +1,8 @@
 #!/usr/bin/pwsh
 
 Param(
-    [parameter(Mandatory=$false)][string]$acrName="acrmedicalclaimsdemokr",
-    [parameter(Mandatory=$false)][string]$acrResourceGroup="rg-MedicalClaims-demo-kr",
-    [parameter(Mandatory=$false)][string]$acrloginserver="acrmedicalclaimsdemokr.azurecr.io"
+    [parameter(Mandatory=$false)][string]$acrName="acrinsuranceclaimsdemokr",
+    [parameter(Mandatory=$false)][string]$acrResourceGroup="rg-insuranceclaims-demo-kr",
     [parameter(Mandatory=$true)][string]$resourceGroup,
     [parameter(Mandatory=$true)][string]$location,
     [parameter(Mandatory=$true)][string]$subscription,
