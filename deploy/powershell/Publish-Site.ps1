@@ -26,7 +26,7 @@ az storage azcopy blob upload -c `$web --account-name $storageAccount -s './out/
 $webUri=(az storage account show --name $storageAccount --resource-group $resourceGroup --query "primaryEndpoints.web" -o tsv)
 
 Write-Host "===========================================================" -ForegroundColor Yellow
-Write-Host " Website Uri: $webUri" -ForegroundColor Yellow
+Write-Host " Website Url: $webUri" -ForegroundColor Yellow
 Write-Host "===========================================================" -ForegroundColor Yellow
 
 Pop-Location
